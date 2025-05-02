@@ -1,6 +1,6 @@
 from socket import *
 
-serverName = 'Localhost'
+serverName = "255.255.255.255"
 serverPort = 12000
 clientSocket = socket(AF_INET, SOCK_DGRAM)
 clientSocket.setsockopt(SOL_SOCKET, SO_BROADCAST, 1)
